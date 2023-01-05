@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestStage4" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-05T20:54:47" hostname="LAPTOP-AFF2RDS3" time="1.781">
+  <properties/>
+  <testcase name="start" classname="TestStage4" time="1.781"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+The username is Max.
+?[1;31m
+Start test 2?[0m
+The file 'abc.txt' is tracked.
+?[1;31m
+Start test 3?[0m
+These are SVCS commands:
+config     Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+These are SVCS commands:
+config     Get and set a username.
+add        Add a file to the index.
+log        Show commit logs.
+commit     Save changes.
+checkout   Restore a file.
+?[1;31m
+Start test 4?[0m
+Please, tell me who you are.
+The username is Max.
+The username is Max.
+The username is John.
+The username is John.
+?[1;31m
+Start test 5?[0m
+Add a file to the index.
+The file 'file342.txt' is tracked.
+Tracked files:
+file342.txt
+The file 'file800.txt' is tracked.
+Tracked files:
+file342.txt
+file800.txt
+Can't find 'file903.txt'.
+?[1;31m
+Start test 6?[0m
+The username is Marie333.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
+?[1;31m
+Start test 7?[0m
+The username is Marie384.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+No commits yet.
+Message was not passed.
+Changes are committed.
+commit 8b5eb66c3f94e338892a6a84ebae422fc9cf87adfa03cc8c507fc01be5dc96f8
+Author: Marie384
+Test message
+
+
+Nothing to commit.
+Changes are committed.
+commit 239e09ef326399067e2f8bb9752648b6b23b9744d8e417657d9e0a565a90dde7
+Author: Marie384
+Test message3
+
+commit 8b5eb66c3f94e338892a6a84ebae422fc9cf87adfa03cc8c507fc01be5dc96f8
+Author: Marie384
+Test message
+
+
+?[1;31m
+Start test 8?[0m
+The username is Marie932.
+The file 'first_file.txt' is tracked.
+The file 'second_file.txt' is tracked.
+Changes are committed.
+Changes are committed.
+Commit id was not passed.
+Commit does not exist.
+commit 9503cfc5c396cd7d0d75df8526c84517c67d82cc49bd22ad61fd194abe949da6
+Author: Marie932
+Second commit
+
+commit 736f5d821ae1434eab4eb05cb0548465c6cfe40a38ed93bc2a9017cd99e32c03
+Author: Marie932
+First commit
+
+
+Switched to commit 736f5d821ae1434eab4eb05cb0548465c6cfe40a38ed93bc2a9017cd99e32c03.
+?[1;31m
+Start test 9?[0m
+'wrongArg161' is not a SVCS command.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
